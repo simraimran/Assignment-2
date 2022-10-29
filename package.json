@@ -1,0 +1,16 @@
+{
+  "name": "classproject",
+  "version": "1.0.0",
+  "description": "first node porgram for testing purpose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "simra",
+  "license": "ISC",
+  "dependencies": {
+    "connect": "^3.7.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}

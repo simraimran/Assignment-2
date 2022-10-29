@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!---Creating projext page-->
+<head>
+  <%- include('../partials/head'); %>
+</head>
+<body class="container">  <!---connetcing to head ejs where css file is-->
+
+<header>
+  <%- include('../partials/header'); %> <!---adding naviagtion bar-->
+</header>
+
+<main>
+
+    <div class="jumbotron">
+      <h1>My Projects</h1>
+      <div class=" box3">
+      <h2>These are some of the companies I have worked with, for most of 
+        these companies I worked on creating their database. As these companies
+      are tradeshow companies having a organized and effiecient database is crucial. </h2>
+    </div>
+
+
+  <div>
+ <!--images for project-->
+      <img src="/images/project1.jpg"height="200px" width="200px">>
+      <img src="/images/kbc.jpg">
+      <img src="/images/stc.jpg"height="200px" width="400px">>
+      <img src="/images/lacasa1.jpg">
+
+
+  </div>
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>
